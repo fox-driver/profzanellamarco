@@ -1,228 +1,57 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>profmarcozanella</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-    .w3-row-padding img {margin-bottom: 12px}
-    .bgimg {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-image: url('./Foto/foto_profilo_ripetizioni_BN.jpg');
-      min-height: 80%;
-    }
-    </style>
-  </head>
-<body>
+<DOCSTYPE HTML>
+<html =it>
 
-<!-- Sidebar with image -->
-<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:25%">
-  <div class="bgimg"></div>
-</nav>
+<head>
+	<title>profmarcozanella</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		img {
+		width: 100%, height: 100%;
+		}
+		#profile {
+		width: 100%, height: 100%;
+		float:right;
+		}
+		.presentation {
+		max-width:680px;
+		margin: 16 auto;
+		text-align:center;
+		}
+	</style>
+</head>
 
-<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-    <a href="#esperienze" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Esperienza maturate</a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Qualcosa su di me</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Come contattarmi</a>
-  </div>
-</nav>
-
-<!-- Page Content -->
-<div class="w3-main w3-padding-large" style="margin-left:40%">
-
-  <!-- Menu icon to open sidebar -->
-  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
-
-  <!-- Header -->
-  <header class="w3-container w3-center" style="padding:128px 16px" id="foto_BN">
-    <h1 class="w3-jumbo"><b>Marco Zanella</b></h1>
-    <p>Docente di lezioni private di matematica</br>e scienze</p>
-    <img src="./Foto/foto_profilo_ripetizioni_BN.jpg" class="w3-image w3-hide-large w3-hide-small w3-circle" style="display:block;width:60%;margin:auto;">
-    <img src="./Foto/foto_profilo_ripetizioni_BN.jpg" class="w3-image w3-hide-large w3-hide-medium w3-circle" width="1000" height="1333">
-     <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
-      <i class="fa fa-download"></i> Scarica qui il mio CV
-    </button>
-  </header>
-
-  <!-- Portfolio Section -->
-  <div class="w3-padding-32 w3-content" id="esperienze">
-    <h2 class="w3-text-grey">Esperienze di docenza</h2>
-    <ul class="w3-opacity">
-      <li>Docente di Matematica e Scienze della scuola media, 2022 - attuale</li>
-      <li>Docente di Scienze degli Alimenti nella scuola superiore, 2021 - 2022</li>
-      <li>Esperienze di docenza nella scuola superiore come figura di Sostegno e come docente di Scienze degli Alimenti</li>
-    </ul>
-
-
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
-
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-margin w3-text-darkgrey w3-padding-32" id="about">
-    <h2>Qualcosa su di me</h2>
-    <hr class="w3-opacity">
-    <p>Mi presento, sono Marco Zanella, docente di scuola media superiore di primo grado. Attualmente insegno matematica e scienze presso l'IC1 di Montecchio Magg. (VI). Sono un amante della matematica e in continuo approfondimento dei metodi più interessanti ed efficaci per trasmetterla ai ragazzi di medie e superiori. Sono laureato in Biotecnologie Industriali, il percorso di studi che mi ha portato ad iniziare il mio hobby preferito, la produzione di birra a livello artigianale!
-    </p>
-    <h3 class="w3-padding-16">Quello che so fare</h3>
-    <p class="w3-wide">Rendere la matematica più interessante</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
-    </div>
-    <p class="w3-wide">Siti web base, come questo</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
-    </div>
-    <p class="w3-wide">Produrre ottima birra da bere in compagnia con gli amici :)</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
-    </div><br>
-<!-- 
-    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">14+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
-    </div>
-
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> Download Resume
-    </button>
-
-    <!-- Testimonials 
-    <h3 class="w3-padding-24">My Reputation</h3>
-    <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-text-black w3-margin-right">Chandler Bing.</span> Web Designer.</p>
-    <p>Jane Doe is just awesome. I am so happy to have met her!</p><br>
-   
-    <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-text-black w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>Jane Doe saved us from a web disaster.</p><br>
-    
-    <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-text-black w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than Jane Doe.</p><br>
-    
-    <!-- Grid for pricing tables 
-    <h3 class="w3-padding-16">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      <div class="w3-half">
-        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
-          <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-     End Grid/Pricing tables --> 
-    </div>
-    
-  <!-- End About Section -->
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
-    <h2>Contattatemi su telegram fotografando il QR code sottostante!</h2>
-    <hr class="w3-opacity">
-
-   
-    
-    <!-- Image of location/map -->
-    <img src="./Foto/QR_telegram.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
-    <p>Prenota la tua prima lezione con il QR code qui sopra! Oppure scrivimi su Facebook o Instagram cliccando sull'icona in fondo! cliccando sull'icona sottostante!
-
-    <p>Per chi volesse, può usare il sottostante modulo:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nome" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Soggetto" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Messaggio" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> Invia il messaggio
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
-  </div>  
-  
-  <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
-  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-    <a href="https://www.facebook.com/profile.php?id=100063708591116" target="_blank">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    </a>  
-    <!-- <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i> -->
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-small">Invia una richiesta per avere la tua prima lezione con il seguente link!</p>
-    <a class="w3-button w3-round-xxlarge w3-small w3-dark-grey" href="" target="_blank">Prima lezione</a>  
-    <!-- End footer -->
-  </footer>
-<!-- END PAGE CONTENT -->
-</div>
-
-<script>
-// Open and close sidebar
-function openNav() {
-  document.getElementById("mySidebar").style.width = "60%";
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
-
+<body class="w3-khaki">
+	<header class="w3-container w3-center w3-light-grey">
+		<h1>Lezioni private di Matematica e Scienze</h1>
+		<h4>prof. Zanella Marco</h4>
+		<p class="w3-small">Imparare la matematica e le scienze con metodo!</p>
+		<a class="w3-small" href="mailto:marcus86ma@gmail.com?subject=Richiesta%20di%20lezione%20privata&body=Gentile%20prof.%20Zanella%2C%0A">marcus86mz@gmail.com</a>
+	</header>
+	<div class="presentation w3-container w3-panel w3-leftbar w3-sand w3-border">
+		<h3>Mi presento</h3>
+		<img id="profile" src="photo/prof_picBN.jpg" alt="foto profilo" class="w3-image w3-border" style="width:75px;height:106px;margin:15px">
+		<p class="profile w3-opacity">Sono Marco Zanella. 
+		Docente di scuola secondaria di primo grado, laureato in Biotecnologie Industriali presso l'Università degli Studi di Padova, possiedo l'abilitazione all'insegnamento di Scienze degli Alimenti e di Matematica e Scienze nella scuola secondaria di I grado. Il mio percorso professionale include cinque anni dedicati al ruolo di docente di Sostegno, durante i quali ho maturato una profonda competenza nelle tematiche dell'inclusione. Attualmente, la mia attenzione è focalizzata sull'integrazione di approcci digitali innovativi nell'insegnamento della matematica agli studenti di età compresa tra gli 11 e i 19 anni. Completa il mio profilo una certificazione IELTS di livello B2.  
+		</p>
+		<!-- <img src="./Foto/foto_profilo_ripetizioni_BN.jpg" class="w3-image w3-hide-large w3-hide-small w3-circle" style="display:block;width:60%;margin:auto;">	
+		sistemare link foto e impaginarla -->
+	</div>
+	
+	<div class="w3-container w3-panel w3-center w3-image w3-padding-16">
+		
+		<!--<a href="https://wa.link/vivy2a" alt="Contatto via Whatsapp">Contattami Whatsapp <br> </a>-->
+		<a href="https://wa.link/vivy2a"> <img class="w3-hover-grayscale" src="photo/QR_whatsapp.jpg" alt="Contatto Whatsapp" style="width:150x;height:150px;"></a>
+		<a href="https://t.me/ProfSzanea"><img class="w3-hover-grayscale" src="photo/QR_telegram.jpg" alt="Contatto Telegram" style="width:150px;height:150px;"></a>
+		
+	</div>
+	<!-- Inserire qr code whatsapp e telegram per essere contattato -->
+	<footer class="w3-container w3-center w3-amber w3-small w3-padding-16 w3-display-bottom">
+		<p>Copyright 2025</p>	
+	</footer>
 </body>
+
 </html>
