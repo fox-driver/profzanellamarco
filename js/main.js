@@ -6,15 +6,18 @@
 
 
     // Spinner
-    var spinner = function () {
-        setTimeout(function () {
-            if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
+    window.addEventListener('DOMContentLoaded', () => {
+    const hideSpinner = () => {
+        setTimeout(() => {
+            const spinnerEl = document.getElementById('spinner');
+            if (spinnerEl) {
+                spinnerEl.classList.remove('show');
             }
         }, 1);
     };
-    spinner();
 
+    hideSpinner();
+});
 
     // Sticky Navbar
     $(window).scroll(function () {
